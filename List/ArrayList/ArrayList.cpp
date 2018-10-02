@@ -7,7 +7,6 @@
 //
 
 #include "ArrayList.hpp"
-#include "Exception.hpp"
 #include <iostream>
 
 void ArrayList::copy(ArrayList const& original)

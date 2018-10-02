@@ -9,7 +9,8 @@
 #ifndef LinkedLiFo_hpp
 #define LinkedLiFo_hpp
 
-#include "LiFo.hpp"
+#include "../LiFo.hpp"
+#include "../../Exception.hpp"
 #include "LinkedList.hpp"
 
 class LinkedLiFo : public LiFo {

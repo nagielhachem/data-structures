@@ -1,6 +1,7 @@
 
 #include "Collection.hpp"
-#include "LinkedList.hpp"
+#include "../Exception.hpp"
+#include "LinkedList/LinkedList.hpp"
 
 class HashedCollection : public Collection {
     LinkedList E[10];

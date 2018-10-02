@@ -9,14 +9,15 @@
 #ifndef LinkedFiFo_hpp
 #define LinkedFiFo_hpp
 
-#include "FiFo.hpp"
+#include "../FiFo.hpp"
+#include "../../Exception.hpp"
 
 class LinkedFiFo : public FiFo {
     struct Noeud {
         float v;
         Noeud* n;
     } * tete, *queue;
-    
+
 public:
     LinkedFiFo();
     LinkedFiFo(LinkedFiFo const&);

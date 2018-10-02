@@ -10,7 +10,8 @@
 #define ArrayLiFo_hpp
 
 #include "ArrayList.hpp"
-#include "LiFo.hpp"
+#include "../LiFo.hpp"
+#include "../../Exception.hpp"
 
 class ArrayLiFo : public LiFo {
     ArrayList values;

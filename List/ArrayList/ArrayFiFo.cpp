@@ -7,7 +7,6 @@
 //
 
 #include "ArrayFiFo.hpp"
-#include "Exception.hpp"
 
 ArrayFiFo::ArrayFiFo(int maxSize)
 {

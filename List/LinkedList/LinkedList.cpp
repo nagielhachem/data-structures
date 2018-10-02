@@ -7,7 +7,6 @@
 //
 
 #include "LinkedList.hpp"
-#include "Exception.hpp"
 #include <iostream>
 
 LinkedList::LinkedList()

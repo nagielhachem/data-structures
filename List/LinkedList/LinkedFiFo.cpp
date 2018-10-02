@@ -7,7 +7,6 @@
 //
 
 #include "LinkedFiFo.hpp"
-#include "Exception.hpp"
 
 LinkedFiFo::LinkedFiFo()
 {

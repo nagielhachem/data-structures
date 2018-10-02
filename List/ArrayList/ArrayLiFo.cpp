@@ -1,42 +1,42 @@
 //
-//  LinkedLiFo.cpp
+//  ArrayLiFo.cpp
 //  CollectionsTd
 //
 //  Created by Nagi's Macbook Air on 10/8/15.
 //  Copyright © 2015 Nagi's Macbook Air. All rights reserved.
 //
 
-#include "LinkedLiFo.hpp"
-#include "Exception.hpp"
+#include "ArrayLiFo.hpp"
 
-LinkedLiFo::LinkedLiFo()
+ArrayLiFo::ArrayLiFo(int maxSize)
+    : values(maxSize)
 {
 }
 
-void LinkedLiFo::push(float value)
+void ArrayLiFo::push(float value)
 {
     values.add(value, values.size());
 }
 
-void LinkedLiFo::pop()
+void ArrayLiFo::pop()
 {
     if (values.size() == 0)
         throw Exception("Pop error");
     values.remove(values.size() - 1);
 }
 
-float LinkedLiFo::top()
+float ArrayLiFo::top()
 {
     if (values.size() == 9)
         throw Exception("Empty list");
     return values.get(values.size() - 1);
 }
 
-bool LinkedLiFo::isEmpty()
+bool ArrayLiFo::isEmpty()
 {
     return values.size() == 0;
 }
 
-LinkedLiFo::~LinkedLiFo()
+ArrayLiFo::~ArrayLiFo()
 {
 }

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef List_hpp
+#define List_hpp
+
 #include "Collection.hpp"
 
 class List : public Collection {
@@ -17,3 +19,5 @@ public:
 
     virtual ~List() {}
 };
+
+#endif /* List_hpp */

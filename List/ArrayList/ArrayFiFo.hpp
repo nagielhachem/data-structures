@@ -9,7 +9,8 @@
 #ifndef ArrayFiFo_hpp
 #define ArrayFiFo_hpp
 
-#include "FiFo.hpp"
+#include "../FiFo.hpp"
+#include "../../Exception.hpp"
 
 class ArrayFiFo : public FiFo {
     float* v;
