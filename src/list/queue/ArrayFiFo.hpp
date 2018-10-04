@@ -9,13 +9,13 @@
 #ifndef ArrayFiFo_hpp
 #define ArrayFiFo_hpp
 
-#include "../FiFo.hpp"
 #include "../../Exception.hpp"
+#include "FiFo.hpp"
 
 class ArrayFiFo : public FiFo {
     float* v;
     int from, to, maxSize;
-    
+
 public:
     ArrayFiFo(int maxSize);
     ArrayFiFo(ArrayFiFo const&);

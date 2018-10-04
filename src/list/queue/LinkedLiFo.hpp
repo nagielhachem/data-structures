@@ -9,13 +9,13 @@
 #ifndef LinkedLiFo_hpp
 #define LinkedLiFo_hpp
 
-#include "../LiFo.hpp"
 #include "../../Exception.hpp"
-#include "LinkedList.hpp"
+#include "../baselist/LinkedList.hpp"
+#include "LiFo.hpp"
 
 class LinkedLiFo : public LiFo {
     LinkedList values;
-    
+
 public:
     LinkedLiFo();
     void push(float value);

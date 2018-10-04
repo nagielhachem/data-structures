@@ -9,13 +9,13 @@
 #ifndef ArrayLiFo_hpp
 #define ArrayLiFo_hpp
 
-#include "ArrayList.hpp"
-#include "../LiFo.hpp"
 #include "../../Exception.hpp"
+#include "../baselist/ArrayList.hpp"
+#include "LiFo.hpp"
 
 class ArrayLiFo : public LiFo {
     ArrayList values;
-    
+
 public:
     ArrayLiFo(int maxSize);
     void push(float value);

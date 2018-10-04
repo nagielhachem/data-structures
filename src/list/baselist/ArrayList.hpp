@@ -9,8 +9,8 @@
 #ifndef ArrayList_hpp
 #define ArrayList_hpp
 
-#include "../List.hpp"
 #include "../../Exception.hpp"
+#include "List.hpp"
 
 class ArrayList : public List {
     float* a;

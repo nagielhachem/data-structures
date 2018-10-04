@@ -9,15 +9,15 @@ This is a project that will help you understand basic data structures. It contai
 * Array list
 * Linked list
 
-#### FiFo and LiFo Queues
+#### Queues
 * First in First out queue implemented with array list
 * First in First out queue implemented with linked list
 * Last in First out queue implemented with array list
 * Last in First out queue implemented with linked list
-
-#### More complex lists
-* Hashed Collection implemented with linked list
 * Priority queue implemented with array list
+
+#### Sets
+* Hashed Collection implemented with linked list
 
 ### Trees
 

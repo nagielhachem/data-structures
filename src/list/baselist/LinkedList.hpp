@@ -9,8 +9,8 @@
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
 
-#include "../List.hpp"
 #include "../../Exception.hpp"
+#include "List.hpp"
 
 class LinkedList : public List {
 

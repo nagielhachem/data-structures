@@ -6,8 +6,8 @@
 //  Copyright © 2015 Nagi's Macbook Air. All rights reserved.
 //
 
+#include "../../Exception.hpp"
 #include "PriorityQueue.hpp"
-#include "../Exception.hpp"
 #include <iostream>
 
 PriorityQueue::PriorityQueue(int n)

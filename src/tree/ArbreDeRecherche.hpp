@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <iostream>
-#include "Exception.hpp"
+#include "../Exception.hpp"
 
 typedef int T;
 

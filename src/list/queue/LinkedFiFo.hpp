@@ -9,8 +9,8 @@
 #ifndef LinkedFiFo_hpp
 #define LinkedFiFo_hpp
 
-#include "../FiFo.hpp"
 #include "../../Exception.hpp"
+#include "FiFo.hpp"
 
 class LinkedFiFo : public FiFo {
     struct Noeud {

@@ -1,7 +1,10 @@
 
-#include "Collection.hpp"
-#include "../Exception.hpp"
-#include "LinkedList/LinkedList.hpp"
+#ifndef HashedCollection_hpp
+#define HashedCollection_hpp
+
+#include "../../Exception.hpp"
+#include "../Collection.hpp"
+#include "../baselist/LinkedList.hpp"
 
 class HashedCollection : public Collection {
     LinkedList E[10];
@@ -13,3 +16,5 @@ public:
     bool find(float value);
     unsigned int size();
 };
+
+#endif /* HashedCollection_hpp */
